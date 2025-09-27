@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VNW FLIX</title>
+  <link rel="stylesheet" href="CSS/style.css">
+  <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="logo">VNW FLIX</div>
+    <nav class="nav-links">
+      <a href="#home">HOME</a>
+      <a href="#filmes">FILMES</a>
+      <a href="#series">SÉRIES</a>
+      <a href="#contato">CONTATO</a>
+    </nav>
+    <div class="hamburger" id="hamburger"><i class="fas fa-bars"></i></div>
+  </header>
+
+  <!-- MENU MOBILE -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#home">HOME</a>
+    <a href="#filmes">FILMES</a>
+    <a href="#series">SÉRIES</a>
+    <a href="#contato">CONTATO</a>
+  </div>
+
+  <!-- HOME -->
+  <section id="home" class="home-section">
+    <video autoplay muted loop class="bg-video">
+      <source src="video.mp4" type="video/mp4">
+    </video>
+    <div class="overlay"></div>
+    <div class="home-content">
+      <h1>Bem-vindo ao VNW FLIX</h1>
+      <p>Assista aos melhores filmes e séries</p>
+    </div>
+  </section>
+
+  <!-- FILMES -->
+  <section id="filmes" class="cards-section">
+    <h2>Filmes</h2>
+    <div class="cards-container">
+      <div class="card"><img src="img/Homem aranha.jpg" alt="Homem aranha"><h3>Filme 1</h3></div>
+      <div class="card"><img src="img/Digimon.jpg" alt="Digimon"><h3>Filme 2</h3></div>
+      <div class="card"><img src="img/demon slayer.jpg" alt="Demon slayer"><h3>Filme 3</h3></div>
+      <div class="card"><img src="img/Blade Runner 2049.jpg" alt="Blade Runner 2049"><h3>Filme 4</h3></div>
+      <div class="card"><img src="img/Barbie.jpg" alt="Barbie"><h3>Filme 5</h3></div>
+      <div class="card"><img src="img/Tron Ares.jpg" alt="Tron Ares"><h3>Filme 6</h3></div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- SERIES -->
+  <section id="series" class="carousel-section">
+    <h2>Séries</h2>
+    <div class="carousel-container">
+      <div class="carousel-track">
+        <div class="carousel-item"><img src="img/series/The Boys.png" alt="Série 1"><h3>Série 1</h3></div>
+        <div class="carousel-item"><img src="img/series/bersek.jpg" alt="Série 2"><h3>Série 2</h3></div>
+        <div class="carousel-item"><img src="img/series/Pacidicador.jpg" alt="Série 3"><h3>Série 3</h3></div>
+        <div class="carousel-item"><img src="img/series/Smallville.jpg" alt="Série 4"><h3>Série 4</h3></div>
+        <div class="carousel-item"><img src="img/series/Super loja.jpg" alt="Série 5"><h3>Série 5</h3></div>
+        <div class="carousel-item"><img src="img/series/The Chosen.jpg" alt="Série 6"><h3>Série 6</h3></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato" class="contact-section">
+    <h2>Entre em Contato</h2>
+    <form class="contact-form">
+      <input type="text" name="nome" placeholder="Seu Nome" required>
+      <input type="email" name="email" placeholder="Seu Email" required>
+      <textarea name="mensagem" placeholder="Sua Mensagem" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <a href="#"><i class="fab fa-github"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-linkedin"></i></a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
